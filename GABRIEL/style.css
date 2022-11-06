@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    width: 182vh;
+    height: 100%;
+     color: rgb(0, 0, 0);
+
+    }
+.container{
+    width: 1000px;
+    height: 1250px;
+    background-color: rgb(251, 253, 253);
+    position: relative;
+    top: 70px;
+    left: 240px;
+    border-radius: 15px;
+    font-family: 'Zen Dots', cursive;  
+    text-align: center;
+}
+.spanIniciar{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 41.5%;
+    font-family: 'Zen Dots', cursive;   
+    
+}
+.imgBotao{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 51%;
+    top: 42%;
+}
+.perguntas{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 100%;
+    width: 28%;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    padding: 15px;
+}
+.linha{
+    background-color: black;
+    position: relative;
+    left: 31%;
+    top: 5%;
+    width: 3px;
+    height: 90%;
+}
+#tabela{
+    position: relative;
+    top: -922px;
+    left: 590px;
+    font-size: 36px;
+}
+.celulaInclusa{
+    background-color: rgb(0, 0, 0);
+    font-size: 36px;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+.celula{
+    font-size: 22px;
+        width: 30px;
+        height: 30px;
+}
+.gitImg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -50px;
+    left: 40px;
+}
+    .btnValid{
+    width: 30px;
+    height: 18px;
+    background-color: rgb(6, 6, 6);
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    }
+    #q1{
+        width: 100px;
+    } #q2{
+        width: 100px;
+    } #q3{
+        width: 100px;
+    } #q4{
+        width: 100px;
+    } #q5{
+        width: 100px;
+    } #q6{
+        width: 100px;
+    } #q7{
+        width: 100px;
+    } #q8{
+        width: 100px;
+    } #q9{
+        width: 100px;
+    } #q10{
+        width: 100px;
+    } #q11{
+        width: 100px;
+    } #q12{
+        width: 100px;
+    } #q13{
+        width: 100px;
+    } #q14{
+        width: 100px;
+    } #q15{
+        width: 100px;
+    } #q16{
+        width: 100px;
+    }

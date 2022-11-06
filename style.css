@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    font-family: 'VT323';
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 700px;
+    height: 450px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.nome{
+    position: relative;
+    left: 140px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 40px;
+    bottom: 30px;
+    
+}
+.nome1{
+    position: relative;
+    left: 150px;
+    text-align: left;
+    font-size: 23px;  
+    bottom: 100px;
+
+}
+.ra{
+    position: relative;
+    right: 7px;
+    text-align: left;
+    font-size: 40px;
+    bottom: 429px;
+    left: 470px;
+}
+.ra1{
+    position: relative;
+    left: 469px;
+    text-align: left;
+    font-size: 23px;  
+    bottom: 505px;
+}
+.start{
+    position: relative;
+    left: 390px;
+    bottom: 524px;
+    font-size: 45px;
+}
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+    position: relative;  
+    width: 75px;
+      height: 75px;
+      cursor: pointer;
+      background-color: #5de6de;
+      background-image: linear-gradient(315deg, #ffffff 0%, #ffffff 74%);
+      border: none;
+      border-radius: 50%;
+      transition: 200ms;
+      bottom: 520px;
+      left: 390px;
+  }
+  
+
+  
+  button:before {
+      content: 'Vamos Nessa';
+      position: absolute;
+      transform: translateX(-50%) translateY(45px);
+      font-size: 20px;
+      transition: 200ms;
+      color: transparent;
+      font-weight: bold;
+      font-family:'VT323' ;
+      left: 40px;
+        top: 35px;
+  }
+  
+  button:hover {
+      box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+      width: 80px;
+      height: 80px;
+  }
+  
+  button:hover::before {
+      color: #fff;
+  }
+  
+  button:hover svg {
+          animation: bounce 2s infinite linear;
+  }
+  
+  @keyframes bounce {
+      0% {transform: translateX(-50%) translateY(-50%)}
+      25% {transform: translateX(-50%) translateY(-65%)}
+      50% {transform: translateX(-50%) translateY(-50%)}
+      75% {transform: translateX(-50%) translateY(-35%)}
+      100% {transform: translateX(-50%) translateY(-50%)}
+  }
+  
+  button:focus {
+      outline: none;
+  }
+
+  .fas{
+    color: black;
+    width: 40px;
+    font-size: 30px;
+    font-family:'VT323' ;
+  }
