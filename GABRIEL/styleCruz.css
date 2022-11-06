@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 body{
 
     margin: 0px;
@@ -8,6 +7,7 @@ body{
     width: 182vh;
     height: 100%;
      color: rgb(0, 0, 0);
+    font-family: 'VT323';
 
     }
 .container{
@@ -18,7 +18,7 @@ body{
     top: 70px;
     left: 240px;
     border-radius: 15px;
-    font-family: 'Zen Dots', cursive;  
+    font-family: 'VT323';  
     text-align: center;
 }
 .spanIniciar{
@@ -28,7 +28,7 @@ body{
     top: 35%;
     text-align: center;
     left: 41.5%;
-    font-family: 'Zen Dots', cursive;   
+    font-family: 'VT323';     
     
 }
 .imgBotao{
@@ -46,7 +46,7 @@ body{
     width: 28%;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'VT323';  
     text-align: left;
     padding: 15px;
 }
@@ -90,6 +90,7 @@ body{
     border-radius: 50px;
     cursor: pointer;
     border: none;
+    color: aliceblue;
     }
     #q1{
         width: 100px;

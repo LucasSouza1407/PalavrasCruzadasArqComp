@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleCruz.css">
     <title>CRUZADINHA DO GABRIEL</title>
 </head>
 <body>
@@ -12,53 +12,53 @@
         <div class="perguntas">
             
             1. É a parte do computador onde é feita todo o processamento de dados enviados e recebidos. <br>
-            <input id="input1"> <button  onclick="verificar1()" id="btnValid 1" class="btnValid 1"></button> <br>
+            <input id="input1"> <button  onclick="verificar1()" id="btnValid 1" class="btnValid 1">✔</button> <br>
 
             2. É um circuito digital que realiza operações logicas e aritméticas. <br>
-            <input id="input2"> <button onclick="verificar2()" class="btnValid 2" id="btnValid 2"></button> <br>
+            <input id="input2"> <button onclick="verificar2()" class="btnValid 2" id="btnValid 2">✔</button> <br>
 
             3. Posições de memória dentro do processador. <br>
-            <input id="input3"> <button onclick="verificar3()" id="btnValid 3"class="btnValid 3"></button> <br>
+            <input id="input3"> <button onclick="verificar3()" id="btnValid 3"class="btnValid 3">✔</button> <br>
 
             4. É um tipo de memória volátil, usado para armazenar dados randômicos. <br>
-            <input id="input4"> <button onclick="verificar4()" id="btnValid 4"class="btnValid 4"></button> <br>
+            <input id="input4"> <button onclick="verificar4()" id="btnValid 4"class="btnValid 4">✔</button> <br>
 
             5. É um tipo de memória que permite apenas a leitura, as suas informações são gravadas pelo
             fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas. <br>
-            <input id="input5"> <button onclick="verificar5()" id="btnValid 5"class="btnValid 5"></button> <br>
+            <input id="input5"> <button onclick="verificar5()" id="btnValid 5"class="btnValid 5">✔</button> <br>
 
             6. É um tipo de chip de memória de computador que mantém seus dados quando a energia é desligada. <br>
-            <input id="input6"> <button onclick="verificar6()" id="btnValid 6"class="btnValid 6"></button> <br>
+            <input id="input6"> <button onclick="verificar6()" id="btnValid 6"class="btnValid 6">✔</button> <br>
 
             7. Um chip de memória de computador que mantém informações armazenadas sem a necessidade de uma fonte de energia. <br>
-            <input id="input7"> <button onclick="verificar7()" id="btnValid 7"class="btnValid 7"></button> <br>
+            <input id="input7"> <button onclick="verificar7()" id="btnValid 7"class="btnValid 7">✔</button> <br>
 
             8. Tem como função armazenar grandes quantidades de informações. <br>
-            <input id="input8"> <button onclick="verificar8()" id="btnValid 8"class="btnValid 8"></button> <br>
+            <input id="input8"> <button onclick="verificar8()" id="btnValid 8"class="btnValid 8">✔</button> <br>
 
             9. Permite que certos dispositivos de hardware num computador acessem a memória do sistema para leitura e escrita. <br>
-            <input id="input9"> <button onclick="verificar9()" id="btnValid 9" class="btnValid 9"></button> <br>
+            <input id="input9"> <button onclick="verificar9()" id="btnValid 9" class="btnValid 9">✔</button> <br>
 
             10. É usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento de computador. <br>
-            <input id="input10"> <button onclick="verificar10()" id="btnValid10" class="btnValid 10"></button> <br>
+            <input id="input10"> <button onclick="verificar10()" id="btnValid10" class="btnValid 10">✔</button> <br>
 
             11. Componente que especifica um endereço fisico na memoria. <br>
-            <input id="input11"> <button onclick="verificar11()" id="btnValid 11"class="btnValid 11"></button> <br>
+            <input id="input11"> <button onclick="verificar11()" id="btnValid 11"class="btnValid 11">✔</button> <br>
 
             12. Transmite dados entre os componentes. <br>
-            <input id="input12"> <button onclick="verificar12()" id="btnValid 12"class="btnValid 12"></button> <br>
+            <input id="input12"> <button onclick="verificar12()" id="btnValid 12"class="btnValid 12">✔</button> <br>
 
             13. Processador intel de 12 threads e 6 núcleos em que o turbo boost chega até  uma frequência máxima de 4.3 ghz. <br>
-            <input id="input13"> <button onclick="verificar13()" id="btnValid13"class="btnValid 13"></button> <br>
+            <input id="input13"> <button onclick="verificar13()" id="btnValid13"class="btnValid 13">✔</button> <br>
 
             14. Processador intel de até 8 cores e 16 threads com uma frequência máxima de 5.1 ghz.  
-               <input id="input14"> <button onclick="verificar14()" id="btnValid 14" class="btnValid 14"></button> <br>
+               <input id="input14"> <button onclick="verificar14()" id="btnValid 14" class="btnValid 14">✔</button> <br>
 
             15. Processador com dois núcleos reais de processamento. <br>
-            <input id="input15"> <button onclick="verificar15()" id="btnValid 15" class="btnValid 15"></button> <br>
+            <input id="input15"> <button onclick="verificar15()" id="btnValid 15" class="btnValid 15">✔</button> <br>
 
             16. Processador com quatro nucleos reais de processamento. <br>
-            <input id="input16"> <button onclick="verificar16()" id="btnValid 16"class="btnValid 16"></button> <br>
+            <input id="input16"> <button onclick="verificar16()" id="btnValid 16"class="btnValid 16">✔</button> <br>
         </div>
 
     </div>
@@ -480,7 +480,7 @@
         }
     }
     function verificar2(){
-        if (input2.value == 'ULA'){
+        if (input2.value == 'ULA' || input2.value == 'ula'){
             l3c9.innerHTML = "u"
             l4c9.innerHTML = "l"
             l5c9.innerHTML = "a"
@@ -489,7 +489,7 @@
         }
     }
     function verificar3(){
-        if (input3.value == 'REGISTRADORES'){
+        if (input3.value == 'REGISTRADORES'|| input3.value == 'registradores'){
             l5c2.innerHTML = "r"
             l5c3.innerHTML = "e"
             l5c4.innerHTML = "g"
@@ -508,7 +508,7 @@
         }
     }
     function verificar4(){
-        if (input4.value == 'RAM'){
+        if (input4.value == 'RAM'||input4.value == 'ram'){
             l5c12.innerHTML = "r"
             l6c12.innerHTML = "a"
             l7c12.innerHTML = "m"
@@ -517,7 +517,7 @@
         }
     }
     function verificar5(){
-        if (input5.value == 'ROM'){
+        if (input5.value == 'ROM'|| input5.value == 'rom'){
             l7c10.innerHTML = "r"
             l7c11.innerHTML = "o"
             l7c12.innerHTML = "m"
@@ -526,7 +526,7 @@
         }
     }
     function verificar6(){
-        if (input6.value == 'EPROM'){
+        if (input6.value == 'EPROM'||input6.value == 'eprom'){
             l5c3.innerHTML = "e"
             l6c3.innerHTML = "p"
             l7c3.innerHTML = "r"
@@ -537,7 +537,7 @@
         }
     }
     function verificar7(){
-        if (input7.value == 'FLASH'){
+        if (input7.value == 'FLASH'||input7.value == 'flash'){
             l2c14.innerHTML = "f"
             l3c14.innerHTML = "l"
             l4c14.innerHTML = "a"
@@ -548,7 +548,7 @@
         }
     }
     function verificar8(){
-        if (input8.value == 'MEMORIA DE MASSA'){
+        if (input8.value == 'MEMORIA DE MASSA'||input8.value == 'memoria de massa'){
             l9c3.innerHTML = "m"
             l9c4.innerHTML = "e"
             l9c5.innerHTML = "m"
@@ -570,7 +570,7 @@
         }
     }
     function verificar9(){
-        if (input9.value == 'DMA'){
+        if (input9.value == 'DMA'||input9.value == 'dma'){
             l7c18.innerHTML = "d"
             l8c18.innerHTML = "m"
             l9c18.innerHTML = "a"
@@ -579,7 +579,7 @@
         }
     }
     function verificar10(){
-        if (input10.value == 'CS'){
+        if (input10.value == 'CS'||input10.value == 'cs'){
             l12c10.innerHTML = "c"
             l13c10.innerHTML = "s"
         }else{
@@ -587,7 +587,7 @@
         }
     }
     function verificar11(){
-        if (input11.value == 'ADDRESS BUS'){
+        if (input11.value == 'ADDRESS BUS'||input11.value == 'address bus'){
             l13c4.innerHTML = "a"
             l13c5.innerHTML = "d"
             l13c6.innerHTML = "d"
@@ -605,7 +605,7 @@
         }
     }
     function verificar12(){
-        if (input12.value == 'DATA BUS'){
+        if (input12.value == 'DATA BUS'||input12.value == 'data bus'){
             l12c4.innerHTML = "d"
             l13c4.innerHTML = "a"
             l14c4.innerHTML = "t"
@@ -620,7 +620,7 @@
         }
     }
     function verificar13(){
-        if (input13.value == 'I5'){
+        if (input13.value == 'I5'||input13.value == 'i5'){
             l5c5.innerHTML = "i"
             l6c5.innerHTML = "5"
         }else{
@@ -628,7 +628,7 @@
         }
     }
     function verificar14(){
-        if (input14.value == 'I7'){
+        if (input14.value == 'I7'||input14.value == 'i7'){
             l9c8.innerHTML = "i"
             l10c8.innerHTML = "7"
         }else{
@@ -636,7 +636,7 @@
         }
     }
     function verificar15(){
-        if (input15.value == 'DUAL CORE'){
+        if (input15.value == 'DUAL CORE'||input15.value == 'dual core'){
             l12c13.innerHTML = "d"
             l13c13.innerHTML = "u"
             l14c13.innerHTML = "a"
@@ -653,7 +653,7 @@
         }
     }
     function verificar16(){
-        if (input16.value == 'QUAD CORE'){
+        if (input16.value == 'QUAD CORE'||input16.value == 'quad core'){
             l16c9.innerHTML = "q"
             l16c10.innerHTML = "u"
             l16c11.innerHTML = "a"
